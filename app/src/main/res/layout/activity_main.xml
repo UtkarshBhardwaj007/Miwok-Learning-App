@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/colorsEditText"
+        style="@style/mainBoxes"
+        android:background="#FFC107"
+        android:text="@string/Colors" />
+
+    <TextView
+        android:id="@+id/numbersEditText"
+        style="@style/mainBoxes"
+        android:background="#00BCD4"
+        android:onClick="numbersActivity"
+        android:text="@string/Numbers" />
+
+    <TextView
+        android:id="@+id/phrasesEditText"
+        style="@style/mainBoxes"
+        android:background="#CDDC39"
+        android:onClick="phrasesActivity"
+        android:text="@string/Phrases" />
+
+    <TextView
+        android:id="@+id/familyMembersEditText"
+        style="@style/mainBoxes"
+        android:background="#F8764C"
+        android:onClick="familyMembersActivity"
+        android:text="@string/family_members" />
+</LinearLayout>
